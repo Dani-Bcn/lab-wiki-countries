@@ -3,9 +3,62 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  list-style: none;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
 }
 .containerNav{
   width: 100vw;
   padding: 20px 50px;
   background-color: rgb(135, 135, 255);
+  margin: auto;
 }
+.container{
+  width: 20px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+}
+.containerCard{
+  width: 100vw;
+  padding: 20px 50px;
+}
+.card{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(251, 245, 245);
+  flex-direction: column;
+  text-align: start;
+  font-size: 8px;
+  justify-content: space-around;
+  border: 1px solid rgb(214, 214, 214);
+}
+.selectCard{
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(255, 243, 243);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 75px  100px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border: 1px solid rgb(219, 219, 219);
+}
+.selectCard img{
+  width: 150px;
+  height: 100px;
+}
+img{
+  width: 50px;
+}
+
+
+
